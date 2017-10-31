@@ -1,4 +1,5 @@
 #!/bin/bash
+#Script by Gokuldeep
 package_list="httpd  mysql-server  php-* " 
 service_list="httpd mysqld"
 for package in ${package_list}
